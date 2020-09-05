@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 10px;
+  background: whitesmoke;
+}
+
+.break {
+  display: block;
+  background-color: darkslategrey;
+  color: rgb(71, 77, 77);
+  height: 50px;
+}
+
+nav {
+  margin-left: 200px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-bottom: 13px;
+}
+
+nav img {
+  margin-right: 15px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  flex-wrap: nowrap;
+}
+
+.nav-link {
+  font-size: 15px;
+  font-weight: bold;
+  padding: 0 15px;
+  display: flex;
+  justify-content: left;
+  flex-wrap: nowrap;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  text-decoration-color: dimgrey;
+  text-decoration-thickness: bold;
+}
+
+header {
+  background: yellow;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header h1 {
+  padding: 60px 0;
+  font-size: 50px;
+  font-weight: 900;
+}
+
+header div {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+#avatarname {
+  padding-bottom: 10px;
+}
+
+header div div ul * {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+h5 {
+  font-size: 15px;
+  letter-spacing: 3px;
+  font-weight: 900;
+  background-color: white;
+  padding: 20px 40px;
+  border-radius: 25px;
+  cursor: pointer;
+  margin: 50px 0 30px 0;
+}
+
+section {
+  display: flex;
+  margin-left: 150px;
+  list-style: none;
+  margin-top: 30px;
+  margin-left: 150px;
+}
+
+section div * {
+  margin-right: 75px;
+}
+
+h6 {
+  font-size: 15px;
+  padding-bottom: 5px;
+}
+
+.lang {
+  margin-top: 40px;
+}
+
+section ul * {
+  list-style: none;
+  color: grey;
+  font-size: 15px;
+  padding: 2px 0;
+}
+
+#language {
+  width: 200px;
+  padding: 10px 5px 10px;
+  border-color: lightgrey;
+  border-radius: 5px;
+  color: grey;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 40px;
+  background-color: black;
+  color: white;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 150px;
+  padding: 25px 30px 25px 0;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+footer ul li:last-child {
+  padding-left: 50px;
+}
